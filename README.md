@@ -80,12 +80,12 @@ For asynchronous tasks, `neverthrow` offers a `ResultAsync` class which wraps a 
 
 ## Recommended: Use `eslint-plugin-neverthrow`
 
-As part of `neverthrow`s [bounty program](https://github.com/supermacro/neverthrow/issues/314), user [mdbetancourt](https://github.com/mdbetancourt) created [`eslint-plugin-neverthrow`](https://github.com/mdbetancourt/eslint-plugin-neverthrow) to ensure that errors are not gone unhandled.
+As part of `neverthrow`s [bounty program](https://github.com/supermacro/neverthrow/issues/314), user [ninoseki](https://github.com/ninoseki) created [`eslint-plugin-neverthrow`](https://github.com/ninoseki/eslint-plugin-neverthrow) to ensure that errors are not gone unhandled.
 
 Install by running:
 
 ```sh
-> npm install eslint-plugin-neverthrow
+> npm install @ninoseki/eslint-plugin-neverthrow @typescript-eslint/parser
 ```
 
 With `eslint-plugin-neverthrow`, you are forced to consume the result in one of the following three ways:
